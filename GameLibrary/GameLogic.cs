@@ -173,7 +173,7 @@ namespace BattleshipLiteLibrary
         }
 
         //Set boolSwitch to TRUE if trying to validate. E.g. Player enters ship "A1", will return true unless A1 is occupied.
-        //Set boolSwitch to FALSE if trying to find and compare. E.g. Player shoots at 
+        //Set boolSwitch to FALSE if trying to find and compare. E.g. Player shoots at a specific spot and will return false unless it's valid.
         public static bool FindPlayerSpot(PlayerInfoModel player, string row, int column, bool boolSwitch)
         {
             bool output = false;
